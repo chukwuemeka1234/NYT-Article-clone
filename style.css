@@ -102,7 +102,7 @@ main {
   }
 
   .space {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     font-size: 1.25rem;
     line-height: 1.875rem;
@@ -118,6 +118,34 @@ main {
   .first-main-img {
     grid-column: 1 / 4;
     margin-bottom: 3vh;
+  }
+
+  .social-icons i {
+    border: 1px solid var(--subtle-gray);
+    margin-right: 1vw;
+    padding: 6px 7px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: rgb(235, 230, 230);
+    box-sizing: border-box;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+  }
+  
+  .social-icons .fa-facebook-f {
+    padding: 6px 9px;
+  }
+  
+  .social-icons i:hover {
+    background-color: white;
+    border: 2px solid var(--border-gray);
+    cursor: pointer;
+  }
+
+  .line {
+      width: 60%;
+      border-bottom: 4px;
+      color:black;
   }
   
 
