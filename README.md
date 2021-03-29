@@ -1,9 +1,9 @@
 # NYT-Article-clone
 
 # Author
-- GitHub: [@githubhandle](https://git.chukwuemeka1234)
-- Twitter: [@twitterhandle](https://twitter.com/@avc_victor)
-- LinkedIn: [LinkedIn](https://linkedin.com/Ani chukwuemeka)
+- GitHub: [@chukwuemeka1234](https://git.chukwuemeka1234)
+- Twitter: [@avc_victor](https://twitter.com/@avc_victor)
+- LinkedIn: [Ani chukwuemeka](https://linkedin.com/Ani chukwuemeka)
 
 ## 🤝 Contributing
 
