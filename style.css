@@ -154,6 +154,7 @@ main h1 {
 .social-icons {
   display: flex;
   position: relative;
+  
 }
 
 .social-icons i {
@@ -259,10 +260,24 @@ main p {
   margin-bottom: 0.9375rem;
 }
 
+.main-content-info-inner .helvetica {
+  font-size: 14px;
+}
+
 .main-content-author {
-  font-size: 0.8125rem;
+  font-size: 0.9125rem;
   font-weight: 700;
   margin-bottom: 15px;
+  color:#666;
+}
+
+.main-content-author a {
+  text-decoration: underline;
+  color:#666;
+}
+
+.main-content-author a:hover {
+  text-decoration: none;
 }
 
 /* Editors pick aside */
@@ -350,6 +365,11 @@ main p {
   height: 120px;
 }
 
+.theory-of-inflation h2 {
+  margin-bottom: 25px;
+  font-family: Arial;
+}
+
 .theory-of-inflation span {
   font-family: arial, sans-serif;
   font-size: 12px;
@@ -392,10 +412,9 @@ main p {
 }
 
 .video-caption {
-  padding: 70px;
-  margin: 10px 20px;
   text-align: left;
   display: block;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -531,3 +550,5 @@ footer ul {
   border: 2px solid #666;
   height: 300px;
 }
+
+
