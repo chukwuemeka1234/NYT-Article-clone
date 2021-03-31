@@ -422,7 +422,7 @@ main p {
 .content-large {
   width: 100%;
   padding: 80px;
-  margin-top: 2px double #666;
+  margin-top: double;
 }
 
 .astro {
@@ -567,5 +567,5 @@ footer ul {
 
 .editors-pick {
   border-top: 2px solid #666;
-  padding:10px;
+  padding: 10px;
 }
