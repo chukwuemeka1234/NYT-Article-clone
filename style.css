@@ -334,7 +334,6 @@ main p {
   display: flex;
   flex-wrap: wrap;
   position: absolute;
- 
 }
 
 .inflation-diagram-content p {
@@ -380,46 +379,6 @@ main p {
   font-family: nyt-cheltenham, georgia, times new roman, times, serif;
 }
 
-.first-diagram {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-}
-
-.second-diagram {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-}
-
-.third-diagram {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-}
-
-.fourth-diagram {
-  grid-column: 4 / 5;
-  grid-row: 2 / 3;
-}
-
-.fifth-diagram {
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
-}
-
-.sixth-diagram {
-  grid-column: 2 / 3;
-  grid-row: 4 / 5;
-}
-
-.seventh-diagram {
-  grid-column: 3 / 4;
-  grid-row: 4 / 5;
-}
-
-.eighth-diagram {
-  grid-column: 4 / 5;
-  grid-row: 4 / 5;
-}
-
 .theory-of-inflation hr {
   width: 4vw;
   border-bottom: 1px solid #000;
@@ -445,6 +404,10 @@ main p {
   margin-left: auto;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .bottom-comments {
   display: flex;
   justify-content: space-between;
@@ -468,8 +431,28 @@ main p {
   flex: 1;
 }
 
+.flex-1 h4 {
+  border-top: 2px solid #666;
+  padding: 20px;
+  font-size: 18px;
+}
+
 .flex-container-aside {
   flex: 0 0 25%;
+  border-top: 2px solid #666;
+  font-size: 19px;
+  line-height: 25px;
+  margin-left: 15px;
+}
+
+.flex-container-aside h3 {
+  padding: 15px;
+  border-bottom: 2px solid rgb(221, 218, 218);
+}
+
+.flex-container-aside p {
+  padding: 12px;
+  border-bottom: 2px solid rgb(221, 218, 218);
 }
 
 .astro-box {
@@ -491,10 +474,6 @@ main p {
   gap: 15px;
 }
 
-.w-100 {
-  width: 100%;
-}
-
 .content-medium {
   width: 100%;
   margin-left: auto;
@@ -507,7 +486,8 @@ main p {
 }
 
 .logo-footer .logo {
-  width: 120px;
+  width: 210px;
+  padding: 10px;
 }
 
 .li-special img {
@@ -521,4 +501,33 @@ footer ul {
 
 .footer-nav-top li {
   padding: 5px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-small {
+  margin-top: 20px;
+  color: steelblue;
+}
+
+.footer-info {
+  margin-top: 3vh;
+  text-align: center;
+  font-family: Arial, Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  border-top: 2px solid #666;
+}
+
+.footer-info li {
+  margin-top: 15px;
+  padding: 9px;
+}
+
+.list-footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.news-border {
+  border: 2px solid #666;
+  height: 300px;
 }
