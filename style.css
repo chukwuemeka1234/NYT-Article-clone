@@ -422,6 +422,7 @@ main p {
 .content-large {
   width: 100%;
   padding: 80px;
+  margin-top: 2px double #666;
 }
 
 .astro {
@@ -523,6 +524,10 @@ footer ul {
   border-top: 2px solid #666;
 }
 
+.footer-nav {
+  border-top: double rgb(184, 182, 182);
+}
+
 .footer-info li {
   margin-top: 15px;
   padding: 9px;
@@ -535,4 +540,32 @@ footer ul {
 .news-border {
   border: 2px solid #666;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tiny-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.news-caption {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-caption > * {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.more-astro {
+  border-top: 2px solid #666;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.editors-pick {
+  border-top: 2px solid #666;
+  padding:10px;
 }
