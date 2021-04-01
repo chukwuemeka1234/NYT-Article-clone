@@ -16,7 +16,7 @@ This is the first html-css project in the Microverse curriculum.
 
 ## Live Demo
 
-[Live Demo Link](http://127.0.0.1:5502/index.html)
+[Live Demo Link](https://chukwuemeka1234.github.io/NYT-Article-clone/)
 
 
 ## Author
