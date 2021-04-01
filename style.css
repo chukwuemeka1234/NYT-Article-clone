@@ -186,7 +186,6 @@ iframe {
 
 .sign-up {
   display: flex;
-  align-items: center;
   width: 600px;
   margin: 0 auto;
   padding-top: 5px;
@@ -226,6 +225,7 @@ main p {
   font-size: 17px;
   font-weight: 400;
   font-family: georgia, "times new roman", times, serif;
+  width: 500px;
 }
 
 .main-content-info {
@@ -413,10 +413,9 @@ main p {
   width: 100%;
 }
 
-.bottom-comments {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+.bottom-comments .social-icons {
+  float: right;
+  padding-bottom: 20px;
 }
 
 .content-large {
